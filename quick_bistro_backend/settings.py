@@ -35,7 +35,6 @@ ALLOWED_HOSTS = ['*']  # Update with your Render domain in production
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-PORT = os.getenv('PORT', '8000')
 
 # Add this for Render's health check
 if not DEBUG:
